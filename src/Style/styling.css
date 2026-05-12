@@ -1,0 +1,272 @@
+
+
+body{
+    margin: 0;
+    padding: 0;  
+}
+
+.nav-section{
+    background-color: green;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    
+}
+
+.store{
+    color: white;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.store1{
+    color: red;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.homes{
+    margin-left: 100px;
+    color: yellow;
+    font-size: 20px;
+    text-decoration-line: none;
+    margin-top: 14px;
+}
+
+.books{
+    margin-left: 50px;
+    color: yellow;
+    font-size: 20px;
+    text-decoration-line: none;
+    margin-top: 14px;
+
+}
+.mobiles{
+    margin-left: 50px;
+    color: yellow;
+    font-size: 20px;
+    text-decoration-line: none;
+    margin-top: 14px;
+}
+.laptops{
+    margin-left: 50px;
+    color: yellow;
+    font-size: 20px;
+    text-decoration-line: none;
+    margin-top: 14px;
+}
+
+label{
+    margin-left: 70px;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+input{
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.carts{
+    margin-left: 50px;
+    color: yellow;
+    font-size: 20px;
+    text-decoration-line: none;
+    margin-top: 14px;
+}
+
+.btn{
+    margin-left: 100px;
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    background-color: blue;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.btn:hover{
+    background-color: red;
+}
+
+/* .card-img{
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+} */
+
+/* Main Container */
+
+.outer-card{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 30px;
+    background-color: #f4f7fb;
+  }
+  
+  
+  /* Product Card */
+  
+  .card{
+    margin-top: 35px;
+    width: 280px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 18px;
+    text-align: center;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+  }
+  
+  
+  /* Hover Effect */
+  
+  /* .card:hover{
+    transform: translateY(-2px);
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.2);
+  }
+   */
+  
+  /* Product Image */
+  
+  .card img{
+    width: 80%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px; 
+  }
+  
+  
+  /* Product Title */
+  
+  .card h3{
+    margin-top: 15px;
+    font-size: 22px;
+    color: #222;
+  }
+  
+  
+  /* Description */
+  
+  .card p{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  
+  /* Price */
+  
+  .card h4{
+    margin-top: 12px;
+    font-size: 24px;
+    color: #ff5733;
+  }
+  
+  
+  /* Button */
+  
+  .card button{
+    margin-top: -13px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0077ff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  
+  /* Button Hover */
+  
+  .card button:hover{
+    background-color: #005ad1;
+  }
+
+
+/* cart ki css */
+
+  /*  */
+  .cart-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  
+  .cart-card{
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left: 30px;
+    border: 1px solid red;
+  }
+
+  .imgbar img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-left: 22px;
+    margin-top: 10px;
+    
+  }
+
+
+  .cart-title{
+    /* margin-left: 70px; */
+    text-align: center;
+  }
+  .cart-des{
+    /* margin-left: 30px; */
+    text-align: center;
+  }
+  .cart-price{
+    text-align: center;
+    /* margin-left: 110px; */
+  }
+
+  .qty-section{
+    margin-left: 110px;
+  }
+  .qty-btn{
+    border-radius: 6px;
+    padding: 3px 10px;
+    font-size: 20px;
+  }
+  .qty-number{
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .remove-btn{
+    margin-left: 105px;
+    margin-top: 10px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .subtotal{
+    text-align: center;
+  }
+
+  .total-price{
+    text-align: center;
+    margin-top: 1000px;
+  }
+
