@@ -3,7 +3,7 @@ import Navbar from "./Component/Navbar.jsx";
 import Cart from "./Component/Cart.jsx";
 import Mobile from "./Component/Mobile.jsx";
 import Book from "./Component/Book.jsx";
-import Laptop from "./Component/Laptop.jsx";
+
 import Home from "./Component/Home.jsx";
 
 import { Routes, Route } from "react-router-dom";
@@ -133,11 +133,6 @@ const App = () => {
         <Route
           path="/Mobile"
           element={<Mobile addTocart={addTocart} />}
-        />
-
-        <Route
-          path="/Laptop"
-          element={<Laptop addTocart={addTocart} />}
         />
 
         <Route
